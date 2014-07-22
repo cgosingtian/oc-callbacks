@@ -10,6 +10,7 @@
 		4F2593AD1977BA3000CA737E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2593AC1977BA3000CA737E /* Foundation.framework */; };
 		4F2593B01977BA3000CA737E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2593AF1977BA3000CA737E /* main.m */; };
 		4F2593B41977BA3000CA737E /* OC_Practice_Callbacks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F2593B31977BA3000CA737E /* OC_Practice_Callbacks.1 */; };
+		4F2593BC1977BC0600CA737E /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2593BB1977BC0600CA737E /* Stopwatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4F2593AF1977BA3000CA737E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F2593B21977BA3000CA737E /* OC-Practice-Callbacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC-Practice-Callbacks-Prefix.pch"; sourceTree = "<group>"; };
 		4F2593B31977BA3000CA737E /* OC_Practice_Callbacks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OC_Practice_Callbacks.1; sourceTree = "<group>"; };
+		4F2593BA1977BC0600CA737E /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stopwatch.h; sourceTree = "<group>"; };
+		4F2593BB1977BC0600CA737E /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stopwatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				4F2593AF1977BA3000CA737E /* main.m */,
+				4F2593BA1977BC0600CA737E /* Stopwatch.h */,
+				4F2593BB1977BC0600CA737E /* Stopwatch.m */,
 				4F2593B31977BA3000CA737E /* OC_Practice_Callbacks.1 */,
 				4F2593B11977BA3000CA737E /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2593B01977BA3000CA737E /* main.m in Sources */,
+				4F2593BC1977BC0600CA737E /* Stopwatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
